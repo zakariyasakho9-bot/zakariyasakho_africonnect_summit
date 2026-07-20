@@ -659,3 +659,377 @@ tbody tr:hover{
     font-size: 17px;
 
 }
+.page-hero{
+    min-height:45vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    background:
+    linear-gradient(rgba(15,23,42,.7),rgba(15,23,42,.7)),
+    url("../images/arriere.jpeg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-content{
+    max-width:900px;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+.breadcrumb{
+    margin-bottom:15px;
+}
+
+.breadcrumb a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+.page-hero{
+    min-height:45vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    background:
+    linear-gradient(rgba(15,23,42,.7),rgba(15,23,42,.7)),
+    url("../images/programme.jpeg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-content{
+    max-width:900px;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+.breadcrumb{
+    margin-bottom:15px;
+}
+
+.breadcrumb a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+.speakers{
+    padding:80px 20px;
+    background:#f8fafc;
+}
+
+.filters{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+}
+
+.filter-btn{
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    background:#e2e8f0;
+    color:#1e293b;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.filter-btn:hover{
+    background:#2563eb;
+    color:white;
+}
+
+.filter-btn.active{
+    background:#2563eb;
+    color:white;
+}
+.speakers-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.speaker-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.4s;
+    padding-bottom:25px;
+}
+
+.speaker-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(37,99,235,.25);
+}
+
+.speaker-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.speaker-card h3{
+    margin-top:20px;
+    color:#0f172a;
+}
+
+.speaker-card p{
+    color:#64748b;
+    margin:10px 20px;
+}
+
+.speaker-card span{
+    color:#2563eb;
+    font-weight:bold;
+}
+
+@media(max-width:992px){
+    .speakers-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:768px){
+    .speakers-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+.page-hero{
+    min-height:45vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+
+    background:
+    linear-gradient(rgba(15,23,42,.7),rgba(15,23,42,.7)),
+    url("../images/programme.jpeg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-content{
+    max-width:900px;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+.breadcrumb{
+    margin-bottom:15px;
+}
+
+.breadcrumb a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+
+.breadcrumb a:hover{
+    color:white;
+}
+.contact-section{
+    padding:80px 20px;
+    background:#f8fafc;
+}
+
+.contact-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    gap:40px;
+}
+
+.contact-form,
+.contact-info{
+    flex:1;
+    background:#0f172a;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.contact-form h2,
+.contact-info h2{
+    margin-bottom:25px;
+    color:#0f172a;
+}
+
+.contact-form label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    font-size:16px;
+    margin-bottom:15px;
+}
+
+.contact-form textarea{
+    resize:none;
+}
+
+.contact-form button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#1d4ed8;
+}
+
+.contact-info p{
+    margin-bottom:20px;
+    line-height:1.8;
+    color:#e2e8f0;
+}
+
+@media(max-width:768px){
+
+    .contact-container{
+        flex-direction:column;
+    }
+
+}
+.faq{
+    padding:80px 20px;
+    background:#f8fafc;
+}
+
+.faq h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.2rem;
+    color:#0f172a;
+}
+
+.faq-item{
+    max-width:900px;
+    margin:20px auto;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    overflow:hidden;
+}
+
+.faq-item input{
+    display:none;
+}
+
+.faq-item label{
+    display:block;
+    padding:20px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    color:#0f172a;
+    transition:.3s;
+}
+
+.faq-item label:hover{
+    background:#2563eb;
+    color:white;
+}
+
+.faq-content{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .5s ease,padding .5s ease;
+    padding:0 20px;
+    color:#475569;
+}
+
+.faq-item input:checked + label + .faq-content{
+    max-height:200px;
+    padding:20px;
+}
+.map-section{
+    padding:80px 20px;
+    background:#f8fafc;
+    text-align:center;
+}
+
+.map-section h2{
+    font-size:2.2rem;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.map-section p{
+    color:#64748b;
+    margin-bottom:40px;
+    font-size:18px;
+}
+
+.map-container{
+    max-width:1100px;
+    margin:auto;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.map-container iframe{
+    width:100%;
+    height:450px;
+    border:0;
+}
